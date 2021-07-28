@@ -38,7 +38,7 @@ struct ContentView: View {
                 
                 VStack {
                     Button(action:  {
-                        started = true
+                        started.toggle()
                         
                         switch currentLight {
                         case .red:
@@ -57,7 +57,7 @@ struct ContentView: View {
                             .frame(width: 200)
                             .overlay(RoundedRectangle(cornerRadius: 25)
                                         .stroke(Color.black, lineWidth: 3))
-                            .background(LinearGradient(gradient: Gradient(colors: [.white, .blue, .red]), startPoint: .top, endPoint: .bottom))
+                            .background(LinearGradient(gradient: Gradient(colors: [.white, .blue, .red]), startPoint: .top, endPoint: .bottom)).cornerRadius(25)
                     }).padding(.bottom, 100)
                 }
             }

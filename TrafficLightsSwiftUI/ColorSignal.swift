@@ -28,7 +28,7 @@ struct ColorSignal: View {
     private func signalCircle(color: Color, opacity: Double, circleSize: CGFloat) -> some View {
         
         Circle()
-            .stroke(color.opacity(0.3), lineWidth: lineWidth)
+            .stroke(color.opacity(0.2), lineWidth: lineWidth)
             .background(
                 Circle().fill(RadialGradient(gradient: Gradient(colors: [.white, color]), center: .center, startRadius: 2, endRadius: 100))
                     .opacity(opacity))
