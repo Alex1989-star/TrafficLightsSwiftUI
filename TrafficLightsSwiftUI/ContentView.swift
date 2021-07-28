@@ -38,7 +38,7 @@ struct ContentView: View {
                 
                 VStack {
                     Button(action:  {
-                        started.toggle()
+                        started = true
                         
                         switch currentLight {
                         case .red:
