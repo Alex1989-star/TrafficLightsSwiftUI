@@ -57,7 +57,7 @@ struct ContentView: View {
                             .frame(width: 200)
                             .overlay(RoundedRectangle(cornerRadius: 25)
                                         .stroke(Color.black, lineWidth: 3))
-                            .background(Color.purple.cornerRadius(25))
+                            .background(LinearGradient(gradient: Gradient(colors: [.white, .blue, .red]), startPoint: .top, endPoint: .bottom))
                     }).padding(.bottom, 100)
                 }
             }
