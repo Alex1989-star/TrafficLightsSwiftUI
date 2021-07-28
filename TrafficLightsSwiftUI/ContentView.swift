@@ -24,8 +24,7 @@ struct ContentView: View {
         
     var body: some View {
         ZStack {
-            //Color.white.ignoresSafeArea()
-            Image("road").ignoresSafeArea()
+            Color.white.ignoresSafeArea()
             Image("trafficLight").frame(width: 170, height: 170, alignment: .bottom)
             
             VStack {
