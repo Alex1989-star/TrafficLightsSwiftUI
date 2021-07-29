@@ -12,6 +12,8 @@
 		CF419C1026B02D2400478DCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF419C0F26B02D2400478DCA /* Assets.xcassets */; };
 		CF419C1326B02D2400478DCA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF419C1226B02D2400478DCA /* Preview Assets.xcassets */; };
 		CF4BE63026B1475F00000253 /* ColorSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4BE62F26B1475F00000253 /* ColorSignal.swift */; };
+		CF52AB8626B314D6005CA735 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52AB8526B314D6005CA735 /* SwiftUIView.swift */; };
+		CF52AB8D26B3171E005CA735 /* Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52AB8C26B3171E005CA735 /* Signal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CF419C1226B02D2400478DCA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CF419C1426B02D2400478DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF4BE62F26B1475F00000253 /* ColorSignal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSignal.swift; sourceTree = "<group>"; };
+		CF52AB8526B314D6005CA735 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		CF52AB8C26B3171E005CA735 /* Signal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				CF419C1426B02D2400478DCA /* Info.plist */,
 				CF419C1126B02D2400478DCA /* Preview Content */,
 				CF4BE62F26B1475F00000253 /* ColorSignal.swift */,
+				CF52AB8526B314D6005CA735 /* SwiftUIView.swift */,
+				CF52AB8C26B3171E005CA735 /* Signal.swift */,
 			);
 			path = TrafficLightsSwiftUI;
 			sourceTree = "<group>";
@@ -142,7 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF4BE63026B1475F00000253 /* ColorSignal.swift in Sources */,
+				CF52AB8D26B3171E005CA735 /* Signal.swift in Sources */,
 				CF419C0E26B02D1F00478DCA /* ContentView.swift in Sources */,
+				CF52AB8626B314D6005CA735 /* SwiftUIView.swift in Sources */,
 				CF419C0C26B02D1F00478DCA /* TrafficLightsSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
